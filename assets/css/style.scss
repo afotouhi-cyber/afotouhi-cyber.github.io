@@ -5,18 +5,22 @@
   "minima/skins/{{ site.minima.skin | default: 'dark' }}",
   "minima/initialize";
 
-/* Make the portfolio content area wider than Minima's default */
+/* Keep normal page text readable and centered */
 .wrapper {
-  max-width: 2000px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Make screenshots fill the available content width */
+/* Let screenshots break out wider without shifting the whole page */
 .page-content img,
 .post-content img {
   display: block;
-  width: 100%;
+  width: min(90vw, 1600px);
+  max-width: none;
   height: auto;
-  margin: 1.5rem auto;
+  margin: 1.5rem 50%;
+  transform: translateX(-50%);
   border: 1px solid #444;
   border-radius: 8px;
 }
