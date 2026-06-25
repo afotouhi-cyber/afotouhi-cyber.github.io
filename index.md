@@ -4,25 +4,21 @@ title: Home
 permalink: /
 ---
 
-<div class="hero">
-
 # Arya Fotouhi
 
 ### Cybersecurity Portfolio
 
 Security Operations Analyst with experience in threat detection, vulnerability management, endpoint security, and practical homelab projects.
 
-[View My Projects](/projects/) &nbsp;|&nbsp; [About Me](/about/) &nbsp;|&nbsp; [Resume](/resume/)
-
-</div>
+[View My Projects](/projects/) | [About Me](/about/) | [Resume](/resume/)
 
 ---
 
-<div class="project-card">
-
 ## Featured Project: Wazuh SIEM Lab
 
-![Wazuh SIEM dashboard showing Windows and Linux endpoint monitoring]![Wazuh SIEM dashboard](/assets/images/SIEM.png)![Wazuh agent overview](/assets/images/SIEM2.png)
+![Wazuh SIEM dashboard](/assets/images/SIEM.png)
+
+![Wazuh agent overview](/assets/images/SIEM2.png)
 
 Built a Wazuh SIEM lab to monitor Windows and Linux virtual machines from a centralized dashboard.
 
@@ -38,8 +34,6 @@ Built a Wazuh SIEM lab to monitor Windows and Linux virtual machines from a cent
 `Wazuh` · `SIEM` · `Linux` · `Windows` · `Endpoint Monitoring` · `Log Analysis` · `Virtualization`
 
 [Read the full project write-up](/projects/)
-
-</div>
 
 ---
 
