@@ -8,6 +8,6 @@ permalink: /projects/
 
 ## Wazuh SIEM Lab
 
-Built a Wazuh SIEM lab to monitor Windows and Linux virtual machines.
+Centralized Windows and Linux endpoint monitoring using Wazuh in a virtualized homelab.
 
-[Back to Home](/)
+[Read the Wazuh SIEM Lab write-up](/projects/wazuh-siem-lab/)

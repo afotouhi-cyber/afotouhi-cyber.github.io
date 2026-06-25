@@ -33,7 +33,7 @@ Built a Wazuh SIEM lab to monitor Windows and Linux virtual machines from a cent
 
 `Wazuh` · `SIEM` · `Linux` · `Windows` · `Endpoint Monitoring` · `Log Analysis` · `Virtualization`
 
-[Read the full project write-up](/projects/)
+[Read the full project write-up](/projects/wazuh-siem-lab/)
 
 ---
 
