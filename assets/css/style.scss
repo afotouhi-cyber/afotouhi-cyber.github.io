@@ -5,16 +5,16 @@
   "minima/skins/{{ site.minima.skin | default: 'dark' }}",
   "minima/initialize";
 
-img {
-  max-width: 100%;
+/* Make the portfolio content area wider than Minima's default */
+.wrapper {
+  max-width: 2000px;
 }
 
+/* Make screenshots fill the available content width */
 .page-content img,
-.post-content img,
-.wrapper img {
+.post-content img {
   display: block;
   width: 100%;
-  max-width: 1200px;
   height: auto;
   margin: 1.5rem auto;
   border: 1px solid #444;
