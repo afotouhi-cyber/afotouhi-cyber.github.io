@@ -3,8 +3,8 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-### Hands-on cybersecurity projects focused on security monitoring, endpoint visibility, Linux administration, vulnerability awareness, and practical automation.
----
+Hands-on cybersecurity projects focused on security monitoring, endpoint visibility, Linux administration, vulnerability awareness, and practical automation.
+
 
 ## Wazuh SIEM Homelab
 
