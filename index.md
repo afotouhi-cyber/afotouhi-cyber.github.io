@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: Home
 permalink: /
-------------
+---
 
 <div class="hero">
 
@@ -13,7 +12,7 @@ permalink: /
 
 Security Operations Analyst with experience in threat detection, vulnerability management, endpoint security, and practical homelab projects.
 
-[View My Projects](/projects/)  |  [About Me](/about/)  |  [Resume](/resume/)
+[View My Projects](/projects/) &nbsp;|&nbsp; [About Me](/about/) &nbsp;|&nbsp; [Resume](/resume/)
 
 </div>
 
@@ -29,10 +28,10 @@ Built a Wazuh SIEM lab to monitor Windows and Linux virtual machines from a cent
 
 ### What I Built
 
-* Deployed a Wazuh server on Ubuntu Server.
-* Installed and configured Wazuh agents on Windows and Linux virtual machines.
-* Verified agent communication and endpoint visibility in the Wazuh dashboard.
-* Reviewed alert severity, endpoint inventory, and security-event data.
+- Deployed a Wazuh server on Ubuntu Server.
+- Installed and configured Wazuh agents on Windows and Linux virtual machines.
+- Verified agent communication and endpoint visibility in the Wazuh dashboard.
+- Reviewed alert severity, endpoint inventory, and security-event data.
 
 ### Skills Demonstrated
 
