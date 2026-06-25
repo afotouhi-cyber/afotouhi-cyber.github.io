@@ -5,13 +5,18 @@
   "minima/skins/{{ site.minima.skin | default: 'dark' }}",
   "minima/initialize";
 
-.post-content img {
+img {
+  max-width: 100%;
+}
+
+.page-content img,
+.post-content img,
+.wrapper img {
   display: block;
   width: 100%;
-  max-width: auto;
+  max-width: 1200px;
   height: auto;
   margin: 1.5rem auto;
   border: 1px solid #444;
   border-radius: 8px;
-  cursor: zoom-in;
 }
