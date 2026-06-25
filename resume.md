@@ -7,21 +7,14 @@ permalink: /resume/
 # Resume
 
 <p>
-  <a class="resume-button"
-     href="{{ '/assets/resume/Arya-Fotouhi-2026.pdf' | relative_url }}"
-     target="_blank"
-     rel="noopener">
-    Open PDF in a new tab
-  </a>
+<a href="/assets/resume/Arya-Fotouhi-2026.pdf" target="_blank">
+📄 Open Resume in New Tab
+</a>
 </p>
 
 <iframe
-  class="resume-frame"
-  src="{{ '/assets/resume/Arya-Fotouhi-2026.pdf' | relative_url }}"
-  title="Arya Fotouhi Resume">
+    src="/assets/resume/Arya-Fotouhi-2026.pdf"
+    width="100%"
+    height="1200px"
+    style="border: 1px solid #444;">
 </iframe>
-
-<p>
-  If the preview does not load in your browser,
-  <a href="{{ '/assets/resume/Arya-Fotouhi-2026.pdf' | relative_url }}" target="_blank" rel="noopener">open the PDF directly</a>.
-</p>
