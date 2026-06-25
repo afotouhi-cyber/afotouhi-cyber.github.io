@@ -10,9 +10,9 @@ permalink: /projects/wazuh-siem-lab/
 
 I built a Wazuh SIEM homelab to centralize security monitoring for Windows and Linux endpoints. The project gave me hands on experience deploying a SIEM, configuring endpoint agents, working from the Linux command line, troubleshooting connectivity, and reviewing security telemetry from a centralized dashboard.
 
-![Wazuh SIEM dashboard](/assets/images/SIEM.png)
+[![Wazuh SIEM dashboard](/assets/images/SIEM.png)](/assets/images/SIEM.png)
 
-![Wazuh agent overview](/assets/images/SIEM2.png)
+[![Wazuh agent overview](/assets/images/SIEM2.png)](/assets/images/SIEM2.png)
 
 ## Lab Architecture
 
