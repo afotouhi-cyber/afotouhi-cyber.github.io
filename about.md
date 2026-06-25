@@ -31,3 +31,8 @@ I also continue expanding my technical skills through self-directed learning, in
 ## Career Focus
 
 I am interested in opportunities where I can continue growing in security operations, detection engineering, incident response, vulnerability management, and threat hunting.
+
+## Contact
+
+- LinkedIn: [linkedin.com/in/afotouhi](https://www.linkedin.com/in/afotouhi/)
+- Email: [aryafotouhi1@gmail.com](mailto:aryafotouhi1@gmail.com)
