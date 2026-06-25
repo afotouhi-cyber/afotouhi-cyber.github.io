@@ -31,17 +31,19 @@
 }
 
 .site-footer .footer-col-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
 .site-footer .footer-col {
+  width: 100%;
   float: none;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .site-footer .footer-col-2 {
-  text-align: center;
+  max-width: 650px;
 }
 
 .site-footer .social-media-list {
