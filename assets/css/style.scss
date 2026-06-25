@@ -29,3 +29,24 @@
 .site-footer .feed-subscribe {
   display: none;
 }
+
+.site-footer .footer-col-wrapper {
+  text-align: center;
+}
+
+.site-footer .footer-col {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.site-footer .footer-col-2 {
+  text-align: center;
+}
+
+.site-footer .social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  padding-left: 0;
+}
