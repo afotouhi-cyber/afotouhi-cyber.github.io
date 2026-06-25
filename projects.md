@@ -69,7 +69,7 @@ Sensitive information, including IP addresses, has been redacted from the publis
 
 ### Source Code
 
-[View the Python System Security Scan Report source code on GitHub](https://github.com/afotouhi-cyber/vibecoded)
+[View the Python System Security Scan Report source code on GitHub](https://github.com/afotouhi-cyber/Python-Vuln-scanner)
 
 ---
 
