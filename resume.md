@@ -8,7 +8,7 @@ permalink: /resume/
 
 Security Operations Analyst with experience in threat detection, incident response, vulnerability management, endpoint security, identity security, and PKI.
 
-[Download my resume (PDF)](/assets/resume/Arya-Fotouhi-Resume.pdf)
+[Download my resume (PDF)](/assets/resume/Arya-Fotouhi-2026.pdf)
 
 ---
 
