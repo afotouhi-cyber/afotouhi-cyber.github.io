@@ -12,7 +12,7 @@ Hands-on cybersecurity projects focused on security monitoring, endpoint visibil
 
 ## Wazuh SIEM Homelab
 
-![Wazuh SIEM dashboard](/assets/images/SIEM.png)
+![Wazuh SIEM dashboard]({{ "/assets/images/SIEM.png" | relative_url }})
 
 Built a centralized Wazuh SIEM environment to monitor Windows and Linux endpoints from a dedicated Ubuntu Server.
 
@@ -41,9 +41,9 @@ The lab includes both Windows and Linux endpoints. The Windows agent was deploye
 
 ## Python System Security Scan Report
 
-![Python system security scan report](/assets/images/VulnReport.png)
+![Python system security scan report]({{ "/assets/images/VulnReport.png" | relative_url }})
 
-![Python scan report: exposed ports and running processes](/assets/images/Vuln2.png)
+![Python scan report: exposed ports and running processes]({{ "/assets/images/Vuln2.png" | relative_url }})
 
 Built a Python-based system security reporting tool that gathers local Windows system information and produces an HTML report to help identify areas that may need review.
 
