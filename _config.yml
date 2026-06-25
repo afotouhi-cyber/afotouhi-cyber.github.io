@@ -5,7 +5,12 @@ description: "Security Analyst focused on threat detection, vulnerability manage
 
 minima:
   skin: dark
+  hide_site_feed_link: true
 
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/afotouhi/" }
+    - { platform: github, user_url: "https://github.com/afotouhi-cyber" }
+    
 header_pages:
   - about.md
   - index.md
