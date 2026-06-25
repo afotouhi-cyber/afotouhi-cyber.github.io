@@ -3,9 +3,6 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-
-# Resume
-
 <p>
 <a href="/assets/resume/Arya-Fotouhi-2026.pdf" target="_blank">
 📄 Open Resume in New Tab
