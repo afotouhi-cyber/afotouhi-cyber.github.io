@@ -3,9 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-# About Me
-
 I am a cybersecurity professional with a background in security operations, threat detection, vulnerability management, endpoint security, and hands-on technical troubleshooting.
 
 ## How I Got Into Technology
