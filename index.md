@@ -10,8 +10,11 @@ permalink: /
 
 Security Operations Analyst with experience in threat detection, vulnerability management, endpoint security, and practical homelab projects.
 
-[View My Projects](/projects/) | [About Me](/about/) | [Resume](/resume/)
-
+<div class="home-links">
+  <a href="/projects/">View My Projects</a>
+  <a href="/about/">About Me</a>
+  <a href="/resume/">Resume</a>
+</div>
 ---
 
 ## Featured Project: Wazuh SIEM Lab
