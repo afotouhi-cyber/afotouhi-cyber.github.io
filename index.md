@@ -16,9 +16,9 @@ Security Operations Analyst with experience in threat detection, vulnerability m
 
 ## Featured Project: Wazuh SIEM Lab
 
-[![Wazuh SIEM dashboard](/assets/images/SIEM.png)](/assets/images/SIEM.png)
+![Wazuh SIEM dashboard](/assets/images/SIEM.png)
 
-[![Wazuh agent overview](/assets/images/SIEM2.png)](/assets/images/SIEM2.png)
+![Wazuh agent overview](/assets/images/SIEM2.png)
 
 Built a Wazuh SIEM lab to monitor Windows and Linux virtual machines from a centralized dashboard.
 
