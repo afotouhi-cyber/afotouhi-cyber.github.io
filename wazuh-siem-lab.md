@@ -1,9 +1,8 @@
 ---
-
 layout: page
 title: Wazuh SIEM Lab
 permalink: /projects/wazuh-siem-lab/
-------------------------------------
+---
 
 # Wazuh SIEM Lab
 
