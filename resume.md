@@ -6,15 +6,15 @@ permalink: /resume/
 
 # Resume
 
-Security Operations Analyst with experience in threat detection, incident response, vulnerability management, endpoint security, identity security, and PKI.
+<p>
+<a href="/assets/resume/Arya-Fotouhi-2026.pdf" target="_blank">
+📄 Open Resume in New Tab
+</a>
+</p>
 
-[Download my resume (PDF)](/assets/resume/Arya-Fotouhi-2026.pdf)
-
----
-
-## Highlights
-
-- 3.5 years of security operations and information-security experience.
-- SOC investigations and threat hunting across 20,000+ endpoints.
-- Experience with CrowdStrike Falcon, Rapid7 InsightIDR, Palo Alto, Microsoft Defender, Active Directory, PAM, and PKI.
-- CompTIA Security+ and CySA+ certified.
+<iframe
+    src="/assets/resume/Arya-Fotouhi-2026.pdf"
+    width="100%"
+    height="1200px"
+    style="border: 1px solid #444;">
+</iframe>
