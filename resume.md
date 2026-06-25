@@ -3,15 +3,15 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-<p class="resume-mobile-note">
-  Mobile browsers may not display embedded PDFs well. Use the button above to open the resume directly.
-</p>
+
 <p>
 <a href="/assets/resume/Arya-Fotouhi-2026.pdf" target="_blank">
 📄 Open Resume in New Tab
 </a>
 </p>
-
+<p class="resume-mobile-note">
+  Mobile browsers may not display embedded PDFs well. Use the button above to open the resume directly.
+</p>
 <iframe
     src="/assets/resume/Arya-Fotouhi-2026.pdf"
     width="100%"
