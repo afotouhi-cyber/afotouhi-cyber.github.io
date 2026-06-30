@@ -22,9 +22,9 @@ Military veteran and cybersecurity professional passionate about building practi
 
 | Experience | Focus | Certifications |
 |------------|-------|----------------|
-| 🛡️ Security Operations Analyst | 🔍 Detection Engineering | 📜 Security+ |
-| 🎖️ Army National Guard Veteran | 🎯 Threat Hunting | 📜 CySA+ |
-| 🎓 B.S. Information Science & Technology | 🤖 Security Automation | 📜 CompTIA Secure Infrastructure Specialist (CSIS) |
+| 🛡️ Security Operations Analyst | 🔍 Detection Engineering | 📜 CompTIA Security+ |
+| 🎖️ Army National Guard Veteran | 🎯 Threat Hunting | 📜 CompTIA CySA+ |
+| 🎓 B.S. Information Science & Technology | 🤖 Security Automation | 💻 Homelab & Continuous Learning |
 
 ---
 
