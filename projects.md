@@ -7,7 +7,7 @@ permalink: /projects/
 Hands-on cybersecurity projects focused on detection engineering, threat hunting, SIEM monitoring, vulnerability management, endpoint visibility, and security automation.
 
 ---
-
+DEPLOY TEST 2026-06-30
 # ⭐ Featured Project
 
 ## Detection Engineering with Wazuh & MITRE ATT&CK
