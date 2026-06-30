@@ -8,38 +8,63 @@ permalink: /
 
 ### Cybersecurity Portfolio
 
-Security Operations Analyst with experience in threat detection, vulnerability management, endpoint security, and practical homelab projects.
+Security Operations Analyst with experience in threat detection, detection engineering, vulnerability management, endpoint security, and hands-on cybersecurity projects.
 
 <div class="home-links">
   <a href="/projects/">View My Projects</a>
   <a href="/about/">About Me</a>
   <a href="/resume/">Resume</a>
 </div>
+
 ---
 
-## Featured Project: Wazuh SIEM Lab
+# ⭐ Featured Project
 
-![Wazuh SIEM dashboard](/assets/images/SIEM.png)
+## Detection Engineering with Wazuh & MITRE ATT&CK
 
-![Wazuh agent overview](/assets/images/SIEM2.png)
+![Custom Wazuh Detection](/assets/images/EncodedPowerShell.png)
 
-Built a Wazuh SIEM lab to monitor Windows and Linux virtual machines from a centralized dashboard.
+Designed, implemented, and validated custom Wazuh detection rules using Sysmon telemetry and Atomic Red Team attack simulations.
 
-### What I Built
+Rather than simply deploying a SIEM, this project focuses on detection engineering—developing custom detections for attacker techniques, validating them against live simulations, and mapping alerts to the MITRE ATT&CK framework.
 
-- Deployed a Wazuh server on Ubuntu Server.
-- Installed and configured Wazuh agents on Windows and Linux virtual machines.
-- Verified agent communication and endpoint visibility in the Wazuh dashboard.
-- Reviewed alert severity, endpoint inventory, and security-event data.
+### Highlights
+
+- Installed and configured Microsoft Sysmon
+- Integrated Sysmon telemetry into Wazuh
+- Simulated adversary behavior using Atomic Red Team
+- Developed custom Wazuh detection rules
+- Successfully detected PowerShell **EncodedCommand** execution
+- Mapped detections to MITRE ATT&CK (T1059.001)
 
 ### Skills Demonstrated
 
-`Wazuh` · `SIEM` · `Linux` · `Windows` · `Endpoint Monitoring` · `Log Analysis` · `Virtualization`
+`Detection Engineering` · `Threat Hunting` · `MITRE ATT&CK` · `Wazuh` · `Sysmon` · `Atomic Red Team` · `PowerShell` · `Rule Development`
 
-[Read the full project write-up](/projects/wazuh-siem-lab/)
+> **Current Detection Coverage**
+>
+> ✅ Encoded PowerShell (T1059.001)
+>
+> 🚧 Additional detections in development:
+>
+> - Certutil
+> - MSHTA
+> - Rundll32
+> - Regsvr32
+> - Discovery Commands
+
+[View Detection Engineering Project](/projects/)
 
 ---
 
 ## Current Focus
 
-I am continuing to expand this portfolio with hands-on security projects involving SIEM monitoring, vulnerability management, detection engineering, and incident-response workflows.
+I continue to expand this portfolio through hands-on projects involving:
+
+- Detection Engineering
+- Threat Hunting
+- Purple Teaming
+- Security Automation
+- Incident Response
+- Malware Analysis
+- Cloud Security
