@@ -6,11 +6,17 @@ permalink: /projects/
 
 Hands-on cybersecurity projects focused on detection engineering, threat hunting, SIEM monitoring, vulnerability management, endpoint visibility, and security automation.
 
+## Project Navigation
+
+- [Detection Engineering with Wazuh & MITRE ATT&CK](#detection-engineering)
+- [Wazuh SIEM Homelab](#wazuh-siem-homelab)
+- [Python System Security Scan Report](#python-security-scan)
+
 ---
-DEPLOY TEST 2026-06-30
+
 # ⭐ Featured Project
 
-## Detection Engineering with Wazuh & MITRE ATT&CK
+<h2 id="detection-engineering">Detection Engineering with Wazuh & MITRE ATT&CK</h2>
 
 Designed, implemented, and validated custom Wazuh detection rules using Sysmon telemetry and Atomic Red Team attack simulations to improve visibility into attacker behavior.
 
@@ -27,6 +33,7 @@ The first completed detection identifies PowerShell execution using the **-Encod
 To generate realistic telemetry, I executed an Atomic Red Team simulation for **MITRE ATT&CK T1059.001 (PowerShell)**. The test launched PowerShell using an encoded command, creating Sysmon process creation events that were forwarded into Wazuh for analysis.
 
 <img class="project-screenshot" src="{{ '/assets/images/AtomicRedTeam.png' | relative_url }}" alt="Atomic Red Team simulation">
+
 ---
 
 ## 2. Detection Development
@@ -42,6 +49,7 @@ The rule:
 - Generates a high-severity alert whenever an encoded PowerShell command is executed
 
 <img class="project-screenshot" src="{{ '/assets/images/local_rules.png' | relative_url }}" alt="Custom Wazuh rule">
+
 ---
 
 ## 3. Detection Validation
@@ -57,6 +65,7 @@ The resulting alert includes:
 - Full Sysmon process telemetry
 
 <img class="project-screenshot" src="{{ '/assets/images/EncodedPowerShell.png' | relative_url }}" alt="Custom Wazuh detection alert">
+
 ---
 
 ### What I Built
@@ -85,9 +94,11 @@ The resulting alert includes:
 | Regsvr32 | T1218.010 | 🚧 Planned |
 | Windows Discovery Commands | TA0007 | 🚧 Planned |
 
+[Back to Project Navigation](#project-navigation)
+
 ---
 
-## Wazuh SIEM Homelab
+<h2 id="wazuh-siem-homelab">Wazuh SIEM Homelab</h2>
 
 ![Wazuh SIEM Dashboard]({{ "/assets/images/SIEM.png" | relative_url }})
 
@@ -111,11 +122,13 @@ I repurposed an older gaming laptop into dedicated SIEM hardware by installing U
 
 `Wazuh` · `SIEM` · `Ubuntu Server` · `Linux` · `SSH` · `Endpoint Monitoring` · `Log Analysis` · `System Administration`
 
-[Read the full Wazuh SIEM Lab write-up](/projects/wazuh-siem-lab/)
+[Read the full Wazuh SIEM Lab write-up]({{ "/projects/wazuh-siem-lab/" | relative_url }})
+
+[Back to Project Navigation](#project-navigation)
 
 ---
 
-## Python System Security Scan Report
+<h2 id="python-security-scan">Python System Security Scan Report</h2>
 
 ![Python Security Report]({{ "/assets/images/VulnReport.png" | relative_url }})
 
@@ -144,6 +157,8 @@ The script gathers host information, inventories installed software, identifies 
 ### Source Code
 
 [View Source Code on GitHub](https://github.com/afotouhi-cyber/Python-Vuln-scanner)
+
+[Back to Project Navigation](#project-navigation)
 
 ---
 
