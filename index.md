@@ -32,7 +32,7 @@ Rather than simply deploying a SIEM, this project demonstrates the complete dete
 - Validating alerts against live attack simulations
 - Mapping detections to the MITRE ATT&CK framework
 
-![Atomic Red Team Simulation](/assets/images/AtomicRedTeam.png)
+<img class="project-screenshot" src="{{ '/assets/images/AtomicRedTeam.png' | relative_url }}" alt="Atomic Red Team simulation">
 
 ### Detection Workflow
 
