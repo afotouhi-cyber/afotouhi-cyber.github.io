@@ -3,8 +3,53 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-Hands-on cybersecurity projects focused on security monitoring, endpoint visibility, Linux administration, vulnerability awareness, and practical automation.
 
+Hands-on cybersecurity projects focused on detection engineering, threat hunting, SIEM monitoring, vulnerability management, endpoint visibility, and security automation.
+
+---
+
+# ⭐ Featured Project
+
+## Detection Engineering with Wazuh & MITRE ATT&CK
+
+![Detection Engineering]({{ "/assets/images/EncodedPowerShell.png" | relative_url }})
+
+Designed and validated custom Wazuh detection rules using Sysmon telemetry and Atomic Red Team attack simulations to improve visibility into attacker behavior.
+
+### Project Overview
+
+This project focuses on detection engineering rather than simply deploying a SIEM. After configuring Sysmon on Windows and forwarding telemetry into Wazuh, I simulated adversary techniques using Atomic Red Team, investigated the generated events, and developed custom detection logic mapped to the MITRE ATT&CK framework.
+
+The first completed detection identifies PowerShell execution using the **-EncodedCommand** parameter, a common technique used by attackers to obfuscate malicious scripts.
+
+### What I Built
+
+- Installed and configured Microsoft Sysmon
+- Integrated Sysmon telemetry into Wazuh
+- Installed and executed Atomic Red Team simulations
+- Investigated attack telemetry in Wazuh
+- Created custom Wazuh detection rules
+- Validated custom detections against live attack simulations
+- Mapped detections to MITRE ATT&CK
+
+### Skills Demonstrated
+
+`Detection Engineering` · `Threat Hunting` · `Wazuh` · `Sysmon` · `Atomic Red Team` · `MITRE ATT&CK` · `PowerShell` · `Purple Teaming` · `Incident Detection`
+
+**Current Detection Coverage**
+
+✅ PowerShell EncodedCommand (MITRE T1059.001)
+
+🚧 Additional detections currently in development:
+
+- Certutil
+- MSHTA
+- Rundll32
+- Regsvr32
+- Discovery Commands
+- LOLBins
+
+---
 
 ## Wazuh SIEM Homelab
 
@@ -14,22 +59,20 @@ Built a centralized Wazuh SIEM environment to monitor Windows and Linux endpoint
 
 ### Project Overview
 
-I repurposed an older gaming laptop as dedicated SIEM hardware by wiping it and installing Ubuntu Server. After installing Wazuh, I used SSH from my primary Windows PC to administer and troubleshoot the server remotely.
-
-The lab includes both Windows and Linux endpoints. The Windows agent was deployed using the downloadable Wazuh installer and configuration interface, while the Linux agent was installed and configured through the command line.
+I repurposed an older gaming laptop into dedicated SIEM hardware running Ubuntu Server. After deploying Wazuh, I configured both Windows and Linux endpoints and remotely administered the server over SSH from my primary workstation.
 
 ### What I Built
 
-- Repurposed and configured a gaming laptop as dedicated Wazuh server hardware.
-- Installed Ubuntu Server and deployed the Wazuh manager and dashboard.
-- Used SSH for remote Linux administration from a primary Windows workstation.
-- Installed and configured a Windows Wazuh agent using the downloadable installer.
-- Installed and configured a Linux Wazuh agent through the Linux CLI.
-- Validated agent enrollment, endpoint visibility, dashboard connectivity, and security-event data.
+- Repurposed laptop as SIEM hardware
+- Installed Ubuntu Server
+- Deployed Wazuh Manager & Dashboard
+- Configured Windows agent
+- Configured Linux agent
+- Validated endpoint enrollment and event collection
 
 ### Skills Demonstrated
 
-`Wazuh` · `SIEM` · `Ubuntu Server` · `Linux CLI` · `SSH` · `Windows Administration` · `Endpoint Monitoring` · `Log Analysis` · `Troubleshooting`
+`Wazuh` · `SIEM` · `Ubuntu Server` · `Linux` · `SSH` · `Endpoint Monitoring` · `Log Analysis`
 
 [Read the full Wazuh SIEM Lab write-up](/projects/wazuh-siem-lab/)
 
@@ -37,38 +80,41 @@ The lab includes both Windows and Linux endpoints. The Windows agent was deploye
 
 ## Python System Security Scan Report
 
-![Python system security scan report]({{ "/assets/images/VulnReport.png" | relative_url }})
+![Python security scan report]({{ "/assets/images/VulnReport.png" | relative_url }})
 
-![Python scan report: exposed ports and running processes]({{ "/assets/images/Vuln2.png" | relative_url }})
+![Python scan report]({{ "/assets/images/Vuln2.png" | relative_url }})
 
-Built a Python-based system security reporting tool that gathers local Windows system information and produces an HTML report to help identify areas that may need review.
+Built a Python-based security reporting tool that inventories a Windows system and generates an HTML report highlighting potential security concerns.
 
-### Project Overview
+### Features
 
-The script collects basic host information, reviews installed applications for available updates, identifies listening ports, samples running processes, and formats the results into a readable HTML report. The report is intended as a local security-awareness and triage aid, not a replacement for enterprise vulnerability management or a full vulnerability scanner.
-
-### What It Reviews
-
-- Operating system, architecture, hostname, CPU, memory, and disk information
-- Installed application versions and available updates when detected
-- Listening ports and services that may warrant review
-- Running process samples
-- Basic CVE-summary output when available
+- System information collection
+- Installed software inventory
+- Available software updates
+- Open port enumeration
+- Running process analysis
+- HTML report generation
+- Basic CVE reporting
 
 ### Skills Demonstrated
 
-`Python` · `Security Automation` · `Windows Security` · `System Enumeration` · `Port Review` · `Process Analysis` · `HTML Reporting` · `Vulnerability Awareness`
-
-### Security Considerations
-
-Sensitive information, including IP addresses, has been redacted from the published screenshots. The tool is designed for systems I own or am authorized to assess.
+`Python` · `Automation` · `Windows Security` · `System Enumeration` · `HTML Reporting`
 
 ### Source Code
 
-[View the Python System Security Scan Report source code on GitHub](https://github.com/afotouhi-cyber/Python-Vuln-scanner)
+https://github.com/afotouhi-cyber/Python-Vuln-scanner
 
 ---
 
-## Current Learning Focus
+## Current Learning
 
-I am continuing to expand this portfolio with projects involving vulnerability management, detection engineering, alert triage, threat hunting, and Python automation.
+I am actively expanding this portfolio with projects focused on:
+
+- Detection Engineering
+- Threat Hunting
+- Purple Teaming
+- Malware Analysis
+- Incident Response
+- Security Automation
+- SOAR Development
+- Cloud Security
