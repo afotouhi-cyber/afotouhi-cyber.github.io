@@ -3,33 +3,65 @@ layout: page
 title: About
 permalink: /about/
 ---
-I am a cybersecurity professional with a background in security operations, threat detection, vulnerability management, endpoint security, and hands-on technical troubleshooting.
 
-## How I Got Into Technology
+# About Me
 
-My interest in cybersecurity started with a broader interest in technology. I have always enjoyed understanding how systems work together, improving performance, and troubleshooting problems. Before working in cybersecurity, I built PCs and regularly helped friends and family diagnose and resolve technical issues. That curiosity about how technology works naturally led me toward information security.
+I'm a Security Operations Analyst who enjoys understanding how technology works, why it breaks, and how to make it more secure. Whether I'm investigating alerts in a SOC, building a homelab, or writing detection rules, I enjoy solving problems and learning something new with every project.
 
-## Military and Education
+Outside of work, you'll usually find me building cybersecurity labs, experimenting with new tools, or expanding my programming knowledge. I believe the best way to learn cybersecurity is by building, testing, breaking, and improving real systems.
 
-I joined the Wisconsin Army National Guard to help put myself through college. My military experience taught me discipline, motivation, leadership, technical troubleshooting, and the importance of clear documentation. It also gave me opportunities to work with great people and travel.
+---
 
-I earned a Bachelor of Science in Information Science and Technology from the University of Wisconsin–Milwaukee. During my final two years in school, I worked as an Information Security Associate, where I gained practical experience supporting security operations, investigating suspicious activity, and working with enterprise security tools.
+## My Journey
 
-## Cybersecurity Experience
+My interest in cybersecurity began long before I worked in the field. I spent years building PCs, optimizing performance, and troubleshooting computers for friends and family. That curiosity eventually grew into an interest in how networks, operating systems, and security technologies all work together.
 
-After graduating, I joined TEKsystems as a contractor supporting Kohler Co. as a Security Operations Center Analyst. In that role, I worked with security teams to investigate and triage threats, conduct threat hunting, support endpoint security, manage access-related investigations, work with firewall policies, and issue internal PKI certificates.
+To help pay for college, I joined the Wisconsin Army National Guard. My time in the military taught me discipline, leadership, accountability, and the importance of remaining calm under pressure. Qualities that continue to influence how I approach security operations today.
+
+I earned my Bachelor of Science in Information Science and Technology from the University of Wisconsin–Milwaukee. During my final two years of school, I worked as an Information Security Associate, where I gained hands-on experience monitoring enterprise environments, investigating suspicious activity, supporting users, and working with security technologies in a production environment.
+
+After graduation, I joined TEKsystems and supported Kohler Co. as a Security Operations Center Analyst. There I worked with enterprise security tools to investigate threats, perform threat hunting, support vulnerability management, analyze endpoint activity, administer PKI certificates, review firewall policies, and assist with access-related investigations.
+
+---
+
+## Why I Built This Portfolio
+
+I created this website to document my learning and showcase practical cybersecurity projects that go beyond coursework and certifications.
+
+Every project here is something I built, configured, tested, or automated myself.
+
+My goal isn't simply to install security tools—it's to understand how they work, validate them through realistic scenarios, and continually improve my defensive security skills.
+
+---
 
 ## Continuous Learning
 
-I enjoy building homelabs and using them to strengthen my understanding of security tools, endpoint monitoring, Linux administration, and SIEM workflows. My Wazuh SIEM lab is one example of how I continue to build practical experience outside of work.
+Cybersecurity changes every day, which is one of the reasons I enjoy it so much.
 
-I also continue expanding my technical skills through self-directed learning, including Python, coding, and application development through platforms such as Boot.dev.
+I'm constantly building new homelab projects, improving my detection engineering lab, experimenting with Python automation, and learning new technologies through hands-on practice.
 
-## Career Focus
+Current areas I'm exploring include:
 
-I am interested in opportunities where I can continue growing in security operations, detection engineering, incident response, vulnerability management, and threat hunting.
+- Additional Wazuh custom detections
+- Atomic Red Team
+- Malware behavioral detection
+- Windows Event Log analytics
+- SOAR concepts
+- Python development
+- Application development through Boot.dev
 
-## Contact
+---
 
-- LinkedIn: [linkedin.com/in/afotouhi](https://www.linkedin.com/in/afotouhi/)
-- Email: [aryafotouhi1@gmail.com](mailto:aryafotouhi1@gmail.com)
+## Outside of Cybersecurity
+
+When I'm away from the keyboard, I enjoy building PCs, gaming, spending time with friends and family, and finding new technical challenges to tackle. Whether it's solving a hardware issue, learning a new programming language, or creating a new homelab project, I enjoy understanding how systems work and finding ways to improve them.
+
+---
+
+## Let's Connect
+
+I'm always interested in connecting with other cybersecurity professionals, sharing ideas, and discussing security projects.
+
+- 💼 **LinkedIn:** https://linkedin.com/in/afotouhi
+- 💻 **GitHub:** https://github.com/afotouhi-cyber
+- 📧 **Email:** aryafotouhi1@gmail.com
