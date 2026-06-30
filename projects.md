@@ -26,8 +26,7 @@ The first completed detection identifies PowerShell execution using the **-Encod
 
 To generate realistic telemetry, I executed an Atomic Red Team simulation for **MITRE ATT&CK T1059.001 (PowerShell)**. The test launched PowerShell using an encoded command, creating Sysmon process creation events that were forwarded into Wazuh for analysis.
 
-![Atomic Red Team Simulation]({{ "/assets/images/AtomicRedTeam.png" | relative_url }})
-
+<img class="project-screenshot" src="{{ '/assets/images/AtomicRedTeam.png' | relative_url }}" alt="Atomic Red Team simulation">
 ---
 
 ## 2. Detection Development
@@ -42,8 +41,7 @@ The rule:
 - Maps the alert to **MITRE ATT&CK T1059.001**
 - Generates a high-severity alert whenever an encoded PowerShell command is executed
 
-![Custom Wazuh Rule]({{ "/assets/images/local_rules.png" | relative_url }})
-
+<img class="project-screenshot" src="{{ '/assets/images/local_rules.png' | relative_url }}" alt="Custom Wazuh rule">
 ---
 
 ## 3. Detection Validation
@@ -58,8 +56,7 @@ The resulting alert includes:
 - PowerShell execution details
 - Full Sysmon process telemetry
 
-![Custom Detection Alert]({{ "/assets/images/EncodedPowerShell.png" | relative_url }})
-
+<img class="project-screenshot" src="{{ '/assets/images/EncodedPowerShell.png' | relative_url }}" alt="Custom Wazuh detection alert">
 ---
 
 ### What I Built
