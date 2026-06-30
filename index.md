@@ -8,10 +8,10 @@ permalink: /
 
 ### Cybersecurity Portfolio
 
-Security Operations Analyst with experience in threat detection, detection engineering, vulnerability management, endpoint security, and hands-on cybersecurity projects.
+Security Operations Analyst with hands-on experience in detection engineering, threat detection, vulnerability management, endpoint security, and SIEM operations. This portfolio showcases practical cybersecurity projects built to simulate real-world defensive security workflows.
 
 <div class="home-links">
-  <a href="/projects/">View My Projects</a>
+  <a href="/projects/">View Projects</a>
   <a href="/about/">About Me</a>
   <a href="/resume/">Resume</a>
 </div>
@@ -22,49 +22,58 @@ Security Operations Analyst with experience in threat detection, detection engin
 
 ## Detection Engineering with Wazuh & MITRE ATT&CK
 
-![Custom Wazuh Detection](/assets/images/EncodedPowerShell.png)
+Designed and validated custom Wazuh detection rules using Microsoft Sysmon telemetry and Atomic Red Team attack simulations.
 
-Designed, implemented, and validated custom Wazuh detection rules using Sysmon telemetry and Atomic Red Team attack simulations.
+Rather than simply deploying a SIEM, this project demonstrates the complete detection engineering lifecycle:
 
-Rather than simply deploying a SIEM, this project focuses on detection engineering—developing custom detections for attacker techniques, validating them against live simulations, and mapping alerts to the MITRE ATT&CK framework.
+- Simulating adversary behavior
+- Collecting Sysmon telemetry
+- Developing custom Wazuh detection rules
+- Validating alerts against live attack simulations
+- Mapping detections to the MITRE ATT&CK framework
 
-### Highlights
+![Atomic Red Team Simulation](/assets/images/AtomicRedTeam.png)
 
-- Installed and configured Microsoft Sysmon
-- Integrated Sysmon telemetry into Wazuh
-- Simulated adversary behavior using Atomic Red Team
-- Developed custom Wazuh detection rules
-- Successfully detected PowerShell **EncodedCommand** execution
-- Mapped detections to MITRE ATT&CK (T1059.001)
+### Detection Workflow
 
-### Skills Demonstrated
+➡️ Simulate Attack → Collect Telemetry → Develop Detection → Validate Alert
 
-`Detection Engineering` · `Threat Hunting` · `MITRE ATT&CK` · `Wazuh` · `Sysmon` · `Atomic Red Team` · `PowerShell` · `Rule Development`
+### Key Accomplishments
 
-> **Current Detection Coverage**
->
-> ✅ Encoded PowerShell (T1059.001)
->
-> 🚧 Additional detections in development:
->
-> - Certutil
-> - MSHTA
-> - Rundll32
-> - Regsvr32
-> - Discovery Commands
+- Configured Microsoft Sysmon for enhanced Windows telemetry
+- Integrated Sysmon event collection into Wazuh
+- Executed Atomic Red Team attack simulations
+- Authored custom Wazuh detection rules
+- Validated custom detections against simulated attacks
+- Mapped alerts to MITRE ATT&CK (T1059.001)
 
-[View Detection Engineering Project](/projects/)
+### Featured Detection
+
+✅ **Encoded PowerShell Command (MITRE T1059.001)**
+
+Custom Rule ID: **100100**
+
+Severity: **15**
+
+Validated using **Atomic Red Team** attack simulations.
+
+### Technologies
+
+`Wazuh` · `Sysmon` · `Atomic Red Team` · `MITRE ATT&CK` · `PowerShell` · `Detection Engineering` · `Threat Hunting`
+
+[View the Full Detection Engineering Project →](/projects/)
 
 ---
 
 ## Current Focus
 
-I continue to expand this portfolio through hands-on projects involving:
+I'm actively expanding this portfolio by building additional detection engineering projects covering:
 
-- Detection Engineering
+- LOLBin Detection
+- Windows Event Log Analytics
 - Threat Hunting
-- Purple Teaming
-- Security Automation
 - Incident Response
-- Malware Analysis
-- Cloud Security
+- Malware Behavioral Detection
+- Security Automation with Python
+- SOAR Playbooks
+- Cloud Security Monitoring
